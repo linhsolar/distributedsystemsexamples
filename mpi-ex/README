@@ -1,0 +1,3 @@
+a simple example of MPI
+$mpicc mpiexample
+$mpirun -np ./a.out

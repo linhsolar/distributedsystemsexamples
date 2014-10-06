@@ -1,0 +1,8 @@
+This directory contains a simple example of socket to demonstrate how
+to program with low-level socket APIs
+
+To run the example
+
+$echoserver 6789
+$echoclient localhost|hostname 6789
+ 

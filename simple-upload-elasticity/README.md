@@ -4,7 +4,7 @@ some concepts of work load balancing and elasticity.
 It is a kind of templates/mockup sample for students to learn and
 develop real assignment.
 
-This part of examples for various distributed systems/technologies courses
+This part of examples is for various distributed systems/technologies courses
 lectured by Hong-Linh Truong (http://www.infosys.tuwien.ac.at/staff/truong)
 
 ## Setup AMQP and Python

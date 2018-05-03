@@ -25,7 +25,7 @@ Let us say, if we have K parallel uploaders/workers, then the maximum
 end-to-end response time for a request to be finished  
 will be
 
-max_request_response_time = queuing time + upload_time)
+max_request_response_time = (queuing time + upload_time)
 = (nr_requests/K  - 1)* UPLOAD_TIME_MAX + UPLOAD_TIME_MAX 
 = (nr_requests/K) * UPLOAD_TIME_MAX
 

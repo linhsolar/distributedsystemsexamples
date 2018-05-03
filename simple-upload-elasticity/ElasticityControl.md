@@ -8,7 +8,7 @@ for example,
 
 we can consider that
 
-- a finished request is SLOQ if its
+- a finished request is SLOW if its
          upload_time >= UPLOAD_TIME_MAX - 20 % (UPLOAD_TIME_MAX-UPLOAD_TIME_MIN)
 
 - a finished request is FAST if its

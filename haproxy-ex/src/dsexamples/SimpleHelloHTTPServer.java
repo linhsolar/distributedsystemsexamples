@@ -1,4 +1,4 @@
-package at.ac.tuwien.dsg.dsexamples;
+package dsexamples;
 
 import com.sun.net.httpserver.HttpExchange;
 
@@ -14,7 +14,7 @@ import java.net.InetSocketAddress;
 public class SimpleHelloHTTPServer implements HttpHandler {
     String serverName ="";
     public SimpleHelloHTTPServer(String serverName) {
-        
+
         super();
         this.serverName = serverName;
     }
@@ -33,7 +33,7 @@ public class SimpleHelloHTTPServer implements HttpHandler {
         System.out.println("I am "+args[1]+", listening at "+args[0]);
         HttpServer server = HttpServer.create(new InetSocketAddress(Integer.valueOf(args[0])),1);
         server.createContext("/", new SimpleHelloHTTPServer(args[1]));
-        server.setExecutor(null); 
+        server.setExecutor(null);
         server.start();
     }
 

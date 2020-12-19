@@ -1,10 +1,10 @@
 just show a simple example of replica - all are hardcode in local machine
-1) run 
+1) run
    - haproxy -f etc/haconfig.txt
 2) then run simple java server under classes
-   - java at.ac.tuwien.dsg.dsexamples.SimpleHelloHTTPServer 8001 tuwien
-   - java at.ac.tuwien.dsg.dsexamples.SimpleHelloHTTPServer 8002 univie 
-   - java at.ac.tuwien.dsg.dsexamples.SimpleHelloHTTPServer 8003 uibk
+   - java dsexamples.SimpleHelloHTTPServer 8001 tuwien
+   - java dsexamples.SimpleHelloHTTPServer 8002 univie
+   - java dsexamples.SimpleHelloHTTPServer 8003 uibk
 3) then run
    -  python bin/testhttpclient.py
 
